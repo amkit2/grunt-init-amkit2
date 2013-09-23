@@ -11,7 +11,7 @@ exports.template = function(grunt, init, done) {
   init.process({type: 'amkit2'}, [
     // Prompt for these values.
     init.prompt('name'),
-    init.prompt('version', '1.0.0'),
+    init.prompt('version', '0.0.1'),
     init.prompt('parent', '../../parent')
   ], function(err, props) {
 

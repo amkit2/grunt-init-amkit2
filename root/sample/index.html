@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Amkit {%= name %} test</title>
+	<script type="text/javascript" src="../../../sea-modules/seajs/seajs/2.1.0/sea.js"></script>
+	<script type="text/javascript" src="../../../sea-modules/seajs/seajs-style/1.0.0/seajs-style.js"></script>
+</head>
+
+<body>
+
+	<script type="text/javascript">
+	seajs.use(["components/{%= name %}/{%= version %}/{%= name %}"], function({%= name %}) {
+		
+	});
+	</script>
+</body>
+
+</html>
